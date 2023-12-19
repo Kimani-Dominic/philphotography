@@ -1,0 +1,35 @@
+/* styles.css */
+
+/* Floating WhatsApp Link Styles */
+.w3-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+  
+  .w3-whatsapp:hover {
+    opacity: 1;
+  }
+  
+  .w3-whatsapp a {
+    display: block;
+    background-color: #25d366; /* WhatsApp Green */
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .w3-whatsapp a:hover {
+    background-color: #128c7e; /* Darker WhatsApp Green on hover */
+  }
+  
+  .w3-whatsapp i {
+    font-size: 24px; /* Adjust the size as needed */
+  }
+  
